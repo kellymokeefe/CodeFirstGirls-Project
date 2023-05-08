@@ -1,0 +1,84 @@
+body {
+  background: #f6e5e5;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  padding-left: 160px;
+  padding-top: 30px;
+  color: #352961;
+}
+h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 60px;
+  padding-left: 160px;
+  margin-left: 50px;
+  margin-top: -20px;
+  color: #352961;
+}
+h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  padding-left: 160px;
+  margin-top: -20px;
+  color: #352961;
+}
+.profilepic {
+  border-radius: 150px;
+  position: relative;
+  left: 800px;
+  top: -240px;
+  width: 250px;
+  height: 250px;
+}
+.bio {
+  background-color: #774181;
+  width: 500px;
+  padding: 20px;
+  margin-left: 160px;
+  margin-top: -200px;
+}
+p {
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+  color: #f6e5e5;
+}
+img {
+  width: 250px;
+  border-radius: 10px;
+}
+.firstimage {
+  position: relative;
+  left: 800px;
+  top: -425px;
+}
+.secondimage {
+  position: relative;
+  left: 545px;
+  top: -155px;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease-in-out;
+  box-shadow: 10px 10px 10px rgba(246, 229, 229, 1);
+}
+button {
+  font-family: "Signika", sans-serif;
+  width: 540px;
+  background-color: #352961;
+  color: #f6e5e5;
+  position: relative;
+  padding: 20px;
+  margin-left: 160px;
+  top: -225px;
+  border: 10px double #f6e5e5;
+  font-size: 22px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e6b2c6;
+  color: #774181;
+  border: 10px double #774181;
+  transition: ease-in-out 100ms;
+}

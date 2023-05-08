@@ -1,0 +1,105 @@
+body {
+  background: #352961;
+}
+h1 {
+  color: #f6e5e5;
+  text-align: left;
+  padding-left: 160px;
+  padding-top: 30px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+}
+img {
+  size: 250px;
+  border-radius: 150px;
+}
+.externalLink img:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease-in-out;
+  box-shadow: 10px 10px 10px rgba(246, 229, 229, 1);
+  opacity: 0.4;
+}
+.image-gallery {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 20px;
+}
+
+.externalLink {
+  position: relative;
+}
+.externalLink a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+.hide {
+  position: relative;
+  display: none;
+  text-align: center;
+  bottom: 160px;
+  font-family: "Signika", sans-serif;
+  font-size: 26px;
+}
+.externalLink :hover + .hide {
+  display: block;
+}
+.emailInput,
+.joinNewsletter {
+  border-radius: 5px;
+  padding: 10px;
+}
+.emailInput {
+  width: 260px;
+  margin-bottom: 5px;
+  right: 0;
+}
+.newsletter {
+  position: relative;
+  padding: 5px;
+  width: 300px;
+  text-align: right;
+  left: 790px;
+  top: -70px;
+}
+.joinNewsletter {
+  background-color: #e6b2c6;
+  color: #352961;
+}
+.container {
+  position: relative;
+  width: 300px;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #f6e5e5;
+  color: #352961;
+  padding: 20px;
+  width: 600px;
+  font-family: "Signika", sans-serif;
+  border: 10px double #352961;
+  font-size: 22px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e6b2c6;
+  color: #774181;
+  border: 10px double #774181;
+  transition: ease-in-out 100ms;
+  transform: scale(1.1);
+}
+footer {
+  color: #f6e5e5;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}

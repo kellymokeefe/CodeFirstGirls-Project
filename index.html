@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UK Based Women Jewellers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Women Jewellers in the UK today</h1>
+  <div class="newsletter">
+  <input class="emailInput"
+    type="email"
+    placeholder="Enter your email address"
+    autocomplete="off"
+  />
+</br>
+  <input class="joinNewsletter" type="submit" value="Send me the newsletter" />
+  </div>
+
+  <div class="image-gallery">
+    <div class="externalLink">
+      <a href="https://gooddazeahead.com/" target="_blank">
+        <img src="media/GoodDaze.jpg" alt="Good Daze Necklace" />
+        <div class="hide">Good Daze Jewellery</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="museeroopage.html" target="_blank">
+        <img src="media/MuseeRoo.jpg" alt="Musee Roo Jewellery" />
+        <div class="hide">Musee Roo</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://www.maggiecross.co.uk/" target="_blank">
+        <img src="media/MaggieCross.jpg" alt="Maggie Cross Rings" />
+        <div class="hide">Maggie Cross</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://www.ratsalad.co.uk/" target="_blank">
+        <img src="media/RatSalad.jpg" alt="Rat Salad Signet Ring" />
+        <div class="hide">Rat Salad</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://seekerjewellery.com/" target="_blank">
+        <img src="media/SeekerEgg.jpg" alt="Seeker Jewellery Egg Ring" />
+        <div class="hide">Seeker Jewellery</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://www.skenstudios.com/" target="_blank">
+        <img src="media/Sken.jpg" alt="Sken Studios Smiley Charm Necklace" />
+        <div class="hide">Sken Studios</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://www.manomjewellery.com/" target="_blank">
+        <img src="media/Manom.jpg" alt="Manom Jewellery" />
+        <div class="hide">Manom Jewellery</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://raymakesthings.co.uk/" target="_blank">
+        <img
+          src="media/RayMakesThings.jpg"
+          alt="Ray Makes Things Pearl Earrings"
+        />
+        <div class="hide">Ray Makes Things</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://lima-lima.co.uk/" target="_blank">
+        <img src="media/LimaLima.jpg" alt="Lima Lima Mystic Charm Necklace" />
+        <div class="hide">Lima Lima</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://salfordsilver.com/" target="_blank">
+        <img src="media/SalfordSilver.jpg" alt="Salford Silver Opal Rings" />
+        <div class="hide">Salford Silver</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://nighttimeholiday.com/" target="_blank">
+        <img
+          src="media/NightTimeHoliday.jpg"
+          alt="Night Time Holiday Custom Pet Tags"
+        />
+        <div class="hide">Night Time Holiday</div></a
+      >
+    </div>
+    <div class="externalLink">
+      <a href="https://thisstoryjewellery.com/" target="_blank">
+        <img src="media/ThisStory.jpg" alt="This Story Jewellery Mood Ring" />
+        <div class="hide">This Story Jewellery</div></a
+      >
+    </div>
+
+    <div class="externalLink">
+      <a href="https://www.slabjewellery.com/" target="_blank">
+        <img src="media/SlabJewellery.jpg" alt="SLAB Jewllery" />
+        <div class="hide">SLAB Jewellery</div></a
+      >
+ </div>
+</div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div class="footer">
+    <button class="submitBtn">Submit a Jeweller to be added to the page</button>
+  </div>
+  <footer>Coded by Kelly O'Keefe 👩‍🦰 </footer>
+  </html>
+  <script>
+    function submitJeweller() {
+  let jewellerName = prompt("What is the jeweler's name?");
+  let location = prompt("Are they based in the UK?");
+  let heading = document.querySelector("h1");
+  if (location.toLowerCase() === "yes") {
+    alert("Thank you! We'll look into your submission");
+  } else {
+    alert("Sorry, we only showcase jewelers based in the UK");
+  }
+}
+
+let submitBtn = document.querySelector("button");
+submitBtn.addEventListener("click", submitJeweller);
+  </script>
+</body>
